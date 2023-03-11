@@ -5,8 +5,8 @@
 
 From the **root** directory run:
 
-```bash
-python -m venv venv
+```
+virtualenv venv
 ```
 
 ### 2. Activate the virtual environment
@@ -14,10 +14,6 @@ python -m venv venv
 From the **root** directory run:
 
 ```
-
-On Windows:
-
-```bash
 venv\scripts\activate
 ```
 
@@ -56,8 +52,6 @@ From the **root** directory run:
 ```bash
 python manage.py createsuperuser
 ```
-
-When prompted, enter a username, email, and password.
 
 ## Run the application
 
